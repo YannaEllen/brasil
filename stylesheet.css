@@ -13,7 +13,6 @@
   overflow: visible;
   padding: 8px 12px;
   border-style: dotted;
-
 }
 
 nav ul {
@@ -26,7 +25,6 @@ nav ul {
   position: sticky;
   list-style-type: none;
   padding-top: 20px;
-
 }
 
 nav {
@@ -34,11 +32,9 @@ nav {
     background: url('cabo_branco.jpg') center/100% auto no-repeat;
 }
 
-
 ul a {
   color: #000000;
   text-decoration: none;  
-
 }
 
 .current{
@@ -48,7 +44,6 @@ ul a {
     font-weight: bold;
     padding: 10px;
 }
-
 
 ul {
     margin-block-start: 0em;
@@ -75,8 +70,6 @@ h2 {
   font-size: 200%;
   background-color: rgb(223, 227, 126);
   padding: 8px;
-
-
 }
 
 h3{
@@ -93,7 +86,6 @@ div p{
   color: #000000;
   border: 30px solid rgb(223, 227, 126);
   border-radius: 100px;
-  
 }
 
 footer{
@@ -138,4 +130,14 @@ footer p{
   border: solid #000000 3px;
   border-radius: 8px;
   margin-left: 140px;
+}
+
+.photo_column img:nth-child(odd) {
+  border-color: rgb(223, 227, 126);
+  border-radius: 30px;
+}
+
+.photo_column img:nth-child(even) {
+  border-color: rgb(109, 160, 230);
+  border-radius: 10px;
 }
